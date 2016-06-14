@@ -15,7 +15,7 @@ function one () {
   var one = document.getElementById('one')
 
   // Next, we apply a new CSS class to it:
-  one.classList = 'blue'
+  one.classList.add('blue')
 }
 
 // CREATE FUNCTION two HERE
