@@ -17,8 +17,11 @@ Reload the browser. Did the second div change colour?
 Note: the fourth div in `index.html` has a class already: `invisible`. It's also not on the screen in the browser. There's no `id` attribute, so we can't find it using `getElementById`.
 
 5. Write a new function called `makeVisible`. To find things by class, we need to use `getElementsByClassName` (note the 's'). `getElementsByClassName` returns an array, because there could be many DOM elements with the class `invisible`. The [MDN documentation on `getElementsByClassName`](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName) might be useful here. Because there's only one invisible div, we know it must be element `[0]` in the array that comes back from `getElementsByClassName`.
+
 6. Add the `'visible'` class to the div's `classList` property using the same method as the previous examples.
+
 7. Call the `makeVisible` function from start.
+
 8. Reload the browser. If all has gone well, you should see a fourth div. If not, spend a little time troubleshooting, then reach out for help on slack.
 
 When you're done, make sure you stage, commit, and push your branch back to GitHub.
