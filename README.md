@@ -1,7 +1,8 @@
 
 # Applying Classes in the DOM
 
-### Instructions
+---
+
 1. Load the `index.html` file contained in that repository in your browser. 
 
 2. Notice that the `one` function goes looking for the div by its `id` attribute, then it modifies the `classList` property using the `add()` function on the object that is returned. 
