@@ -4,7 +4,6 @@
 ---
 
 1. Load the `index.html` file contained in that repository in your browser. 
-
 Notice that the `one` function goes looking for the div by its `id` attribute, then it modifies the `classList` property using the `add()` function on the object that is returned. 
 
 2. Take a look at the `style.css` file. Notice that there's a class in there called `.blue` whose only job is to alter the `background-color` of whatever element it is applied to. Add another class to `style.css`. Call it `.green`, and have it alter the `background-color` to green.
