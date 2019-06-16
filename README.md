@@ -1,6 +1,8 @@
 
 # Applying Classes in the DOM
 
+In this exercise you will use your code editor to manipulate the DOM by changing the colours of the dots you see in your browser.
+
 ---
 
 1. Load the `index.html` file contained in that repository in your browser. 
